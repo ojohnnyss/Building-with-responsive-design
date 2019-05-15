@@ -1233,22 +1233,29 @@ b{
     
 /* "320 to 480px" */
   @media only screen and (min-width: 320px) {
-    .latets-news, .articles, .latest-deals, .funding-rounds{
+    .wrap-top .latets-news, .articles, .latest-deals, .funding-rounds{
     width: 75%;
     margin: 0 auto;
     }
   } 
-  /* "380 to 768px" */
-  @media only screen and (min-width: 768px) {
-    .latets-news, .articles, .latest-deals, .funding-rounds{
+  /* "480 to 768px" */
+  @media only screen and (min-width: 480px) {
+    .wrap-top .latets-news, .articles, .latest-deals, .funding-rounds{
     width: 75%;
     margin: 0 auto;
     }
   }
 /* "768 to 1024px" */
-  @media only screen and (min-width: 1024px) {
-    .latets-news, .articles, .latest-deals, .funding-rounds{
+  @media only screen and (min-width: 768px) {
+    .wrap-top .latets-news, .articles, .latest-deals, .funding-rounds{
     width: 75%;
     margin: 0 auto;
     }
   }   
+  /*  larger devices (large laptops and desktops, 1024px and up) */
+  @media only screen and (min-width: 1024px) {
+    .wrap-top .latets-news, .articles, .latest-deals, .funding-rounds{
+    width: 75%;
+    margin: 0 auto;
+    }
+  }  
