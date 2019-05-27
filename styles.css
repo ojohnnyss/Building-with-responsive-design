@@ -392,8 +392,8 @@ small {
   }
   
   
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 768px) {
+  /* Medium devices (landscape tablets, 600px and up) */
+  @media only screen and (min-width: 600px) {
     h2{
       color: red;
       margin: 0.5em 0.5em;  
